@@ -1,0 +1,616 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="model:1-1_ComputeHRE_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="model:1-1_ComputeHRE"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="370"/>
+        <Option type="double" name="component_pos_y" value="84"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="1-1_ComputeHRE"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="573"/>
+      <Option type="double" name="component_pos_y" value="302"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="model:1-1_ComputeHRE_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="false"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="Bti3D">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="Vecteurbti3D"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ChampID">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="ChampID"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ChamphauteurdeBti3D">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="ChamphauteurdeBti3D"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Maillage">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="Fichiermaillage"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SystmedeCoordonnesdeRfrence">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="SystmedeCoordonnesdeRfrence"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="model:1-2_ComputeOCS_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="model:1-2_ComputeOCS"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="739"/>
+        <Option type="double" name="component_pos_y" value="524"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="1-2_ComputeOCS"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="612"/>
+      <Option type="double" name="component_pos_y" value="557"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="model:1-2_ComputeOCS_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="false"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="Fichiermaillage">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="Fichiermaillage"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="RasterOCS6classes">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="RasterOCS6classes"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="Rsolutionduraster">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="Rsolutionduraster"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="model:2_ComputeLCZ_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="model:2_ComputeLCZ"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="1223"/>
+        <Option type="double" name="component_pos_y" value="333"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="2_ComputeLCZ"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="969"/>
+      <Option type="double" name="component_pos_y" value="388"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="model:2_ComputeLCZ_1"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Classification LCZ">
+          <Option type="QString" name="child_id" value="model:2_ComputeLCZ_1"/>
+          <Option type="QString" name="color" value=""/>
+          <Option type="Map" name="comment">
+            <Option type="QString" name="color" value=""/>
+            <Option type="QString" name="component_description" value=""/>
+            <Option type="double" name="component_height" value="60"/>
+            <Option type="double" name="component_pos_x" value="0"/>
+            <Option type="double" name="component_pos_y" value="0"/>
+            <Option type="double" name="component_width" value="100"/>
+            <Option type="bool" name="outputs_collapsed" value="true"/>
+            <Option type="bool" name="parameters_collapsed" value="true"/>
+          </Option>
+          <Option type="QString" name="component_description" value="Classification LCZ"/>
+          <Option type="double" name="component_height" value="30"/>
+          <Option type="double" name="component_pos_x" value="1329"/>
+          <Option type="double" name="component_pos_y" value="417"/>
+          <Option type="double" name="component_width" value="200"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" name="mandatory" value="false"/>
+          <Option type="QString" name="name" value="Classification LCZ"/>
+          <Option type="QString" name="output_name" value="native:savefeatures_1:Classification LCZ"/>
+          <Option type="bool" name="outputs_collapsed" value="true"/>
+          <Option type="bool" name="parameters_collapsed" value="true"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="false"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="Fichiermaillage">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="Fichiermaillage"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="HRE">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="model:1-1_ComputeHRE_1"/>
+            <Option type="QString" name="output_name" value="native:savefeatures_1:Indicateurs HRE"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OCS">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="model:1-2_ComputeOCS_1"/>
+            <Option type="QString" name="output_name" value="native:fieldcalculator_1:Indicateurs OCS"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SystmedeCoordonnesdeRfrence">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="SystmedeCoordonnesdeRfrence"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:condition_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option type="Map" name="alg_config">
+        <Option type="List" name="conditions">
+          <Option type="Map">
+            <Option type="QString" name="expression" value="@StyleQGISdelaclassificationLCZ IS NOT NULL"/>
+            <Option type="QString" name="name" value="Style QGIS"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option type="QString" name="alg_id" value="native:condition"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="1764"/>
+        <Option type="double" name="component_pos_y" value="662"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Branche conditionnelle"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="811"/>
+      <Option type="double" name="component_pos_y" value="678"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" name="child_id" value="native:loadlayer_3"/>
+          <Option type="QString" name="conditional_branch" value=""/>
+        </Option>
+      </Option>
+      <Option type="QString" name="id" value="native:condition_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option name="params"/>
+    </Option>
+    <Option type="Map" name="native:loadlayer_3">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:loadlayer"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="1426"/>
+        <Option type="double" name="component_pos_y" value="453"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Charger la couche dans le projet"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="1174"/>
+      <Option type="double" name="component_pos_y" value="604"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="native:loadlayer_3"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="false"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="model:2_ComputeLCZ_1"/>
+            <Option type="QString" name="output_name" value="native:savefeatures_1:Classification LCZ"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NAME">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="Cartographie LCZ"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:setlayerstyle_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:setlayerstyle"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="1522"/>
+        <Option type="double" name="component_pos_y" value="579"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Appliquer le style"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="1185"/>
+      <Option type="double" name="component_pos_y" value="823"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" name="child_id" value="native:condition_1"/>
+          <Option type="QString" name="conditional_branch" value="Style QGIS"/>
+        </Option>
+      </Option>
+      <Option type="QString" name="id" value="native:setlayerstyle_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="false"/>
+      <Option type="bool" name="parameters_collapsed" value="false"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:loadlayer_3"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="STYLE">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="StyleQGISdelaclassificationLCZ"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues"/>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" name="model_group" value="LCZ"/>
+  <Option type="QString" name="model_name" value="ComputeAll"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="ChampID">
+      <Option type="bool" name="allow_multiple" value="false"/>
+      <Option type="int" name="data_type" value="-1"/>
+      <Option type="QString" name="default" value="ID"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="bool" name="default_to_all_fields" value="false"/>
+      <Option type="QString" name="description" value="Champ ID (vecteur bâti 3D)"/>
+      <Option type="int" name="flags" value="10"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="ChampID"/>
+      <Option type="QString" name="parameter_type" value="field"/>
+      <Option type="QString" name="parent_layer" value="Vecteurbti3D"/>
+    </Option>
+    <Option type="Map" name="ChamphauteurdeBti3D">
+      <Option type="bool" name="allow_multiple" value="false"/>
+      <Option type="int" name="data_type" value="0"/>
+      <Option type="QString" name="default" value="HAUTEUR"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="bool" name="default_to_all_fields" value="false"/>
+      <Option type="QString" name="description" value="Champ Hauteur (vecteur bâti 3D)"/>
+      <Option type="int" name="flags" value="10"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="ChamphauteurdeBti3D"/>
+      <Option type="QString" name="parameter_type" value="field"/>
+      <Option type="QString" name="parent_layer" value="Vecteurbti3D"/>
+    </Option>
+    <Option type="Map" name="Fichiermaillage">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Fichier maillage"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="Fichiermaillage"/>
+      <Option type="QString" name="parameter_type" value="vector"/>
+    </Option>
+    <Option type="Map" name="RasterOCS6classes">
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Raster OCS 6 classes"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="RasterOCS6classes"/>
+      <Option type="QString" name="parameter_type" value="raster"/>
+    </Option>
+    <Option type="Map" name="Rsolutionduraster">
+      <Option type="int" name="data_type" value="1"/>
+      <Option type="double" name="default" value="1.5"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Résolution du raster"/>
+      <Option type="int" name="flags" value="10"/>
+      <Option type="QString" name="help" value=""/>
+      <Option type="double" name="max" value="999"/>
+      <Option name="metadata"/>
+      <Option type="double" name="min" value="0"/>
+      <Option type="QString" name="name" value="Rsolutionduraster"/>
+      <Option type="QString" name="parameter_type" value="number"/>
+    </Option>
+    <Option type="Map" name="StyleQGISdelaclassificationLCZ">
+      <Option type="int" name="behavior" value="0"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Style QGIS de la classification LCZ"/>
+      <Option type="QString" name="extension" value=""/>
+      <Option type="QString" name="filefilter" value=""/>
+      <Option type="int" name="flags" value="10"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="StyleQGISdelaclassificationLCZ"/>
+      <Option type="QString" name="parameter_type" value="file"/>
+    </Option>
+    <Option type="Map" name="SystmedeCoordonnesdeRfrence">
+      <Option type="QString" name="default" value="EPSG:2154"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Système de Coordonnées de Référence"/>
+      <Option type="int" name="flags" value="10"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="SystmedeCoordonnesdeRfrence"/>
+      <Option type="QString" name="parameter_type" value="crs"/>
+    </Option>
+    <Option type="Map" name="Vecteurbti3D">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Vecteur bâti 3D"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="Vecteurbti3D"/>
+      <Option type="QString" name="parameter_type" value="vector"/>
+    </Option>
+    <Option type="Map" name="model:2_ComputeLCZ_1:Classification LCZ">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Classification LCZ"/>
+      <Option type="QString" name="file_filter" value="GeoPackage (*.gpkg *.GPKG);;ESRI Shapefile (*.shp *.SHP);;AutoCAD DXF (*.dxf *.DXF);;FlatGeobuf (*.fgb *.FGB);;Geoconcept (*.gxt *.txt *.GXT *.TXT);;Geography Markup Language [GML] (*.gml *.GML);;GeoJSON - Newline Delimited (*.geojsonl *.geojsons *.json *.GEOJSONL *.GEOJSONS *.JSON);;GeoJSON (*.geojson *.GEOJSON);;GeoRSS (*.xml *.XML);;GPS eXchange Format [GPX] (*.gpx *.GPX);;INTERLIS 1 (*.itf *.xml *.ili *.ITF *.XML *.ILI);;INTERLIS 2 (*.xtf *.xml *.ili *.XTF *.XML *.ILI);;Keyhole Markup Language [KML] (*.kml *.KML);;Mapinfo TAB (*.tab *.TAB);;Microstation DGN (*.dgn *.DGN);;PostgreSQL SQL dump (*.sql *.SQL);;S-57 Base file (*.000 *.000);;SQLite (*.sqlite *.SQLITE);;Tableur MS Office Open XML [XLSX] (*.xlsx *.XLSX);;Tableur Open Document  [ODS] (*.ods *.ODS);;Valeurs séparées par une virgule [CSV] (*.csv *.CSV)"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="model:2_ComputeLCZ_1:Classification LCZ"/>
+      <Option type="QString" name="parameter_type" value="fileDestination"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+  </Option>
+  <Option type="StringList" name="parameterOrder">
+    <Option type="QString" value="Fichiermaillage"/>
+    <Option type="QString" value="Vecteurbti3D"/>
+    <Option type="QString" value="RasterOCS6classes"/>
+    <Option type="QString" value="ChampID"/>
+    <Option type="QString" value="ChamphauteurdeBti3D"/>
+    <Option type="QString" value="Rsolutionduraster"/>
+    <Option type="QString" value="SystmedeCoordonnesdeRfrence"/>
+    <Option type="QString" value="StyleQGISdelaclassificationLCZ"/>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="ChampID">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="979"/>
+        <Option type="double" name="component_pos_y" value="340"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="ChampID"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="187"/>
+      <Option type="double" name="component_pos_y" value="229"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="ChampID"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="ChamphauteurdeBti3D">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="819"/>
+        <Option type="double" name="component_pos_y" value="671"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="ChamphauteurdeBti3D"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="164"/>
+      <Option type="double" name="component_pos_y" value="143"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="ChamphauteurdeBti3D"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="Fichiermaillage">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="309"/>
+        <Option type="double" name="component_pos_y" value="59"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Fichiermaillage"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="157"/>
+      <Option type="double" name="component_pos_y" value="425"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="Fichiermaillage"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="RasterOCS6classes">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="366"/>
+        <Option type="double" name="component_pos_y" value="354"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="RasterOCS6classes"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="139"/>
+      <Option type="double" name="component_pos_y" value="548"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="RasterOCS6classes"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="Rsolutionduraster">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="885"/>
+        <Option type="double" name="component_pos_y" value="731"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Rsolutionduraster"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="166"/>
+      <Option type="double" name="component_pos_y" value="688"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="Rsolutionduraster"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="StyleQGISdelaclassificationLCZ">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="607"/>
+        <Option type="double" name="component_pos_y" value="15"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="StyleQGISdelaclassificationLCZ"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="170"/>
+      <Option type="double" name="component_pos_y" value="808"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="StyleQGISdelaclassificationLCZ"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="SystmedeCoordonnesdeRfrence">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="439"/>
+        <Option type="double" name="component_pos_y" value="328"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="SystmedeCoordonnesdeRfrence"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="183"/>
+      <Option type="double" name="component_pos_y" value="46"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="SystmedeCoordonnesdeRfrence"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="Vecteurbti3D">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="317"/>
+        <Option type="double" name="component_pos_y" value="230"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Vecteurbti3D"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="138"/>
+      <Option type="double" name="component_pos_y" value="312"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="Vecteurbti3D"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+  </Option>
+</Option>

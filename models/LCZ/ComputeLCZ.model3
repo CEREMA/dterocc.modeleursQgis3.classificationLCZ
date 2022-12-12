@@ -1,0 +1,997 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="gdal:importvectorintopostgisdatabaseavailableconnections_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="320" name="component_pos_x"/>
+        <Option type="double" value="115" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Import maillage" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="491" name="component_pos_x"/>
+      <Option type="double" value="158" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ADDFIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="APPEND">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="A_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="CLIP">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="database_lcz" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DIM">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOCOLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="geom" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GTYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INDEX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="Fichiermaillage" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAUNDER">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERWRITE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PK">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRIMARY_KEY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PROMOTETOMULTI">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SCHEMA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="public" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTIZE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SHAPE_ENCODING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="CP1252" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SIMPLIFY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SKIPFAILURES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SPAT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="S_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TABLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="maillage" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="T_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="WHERE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="gdal:importvectorintopostgisdatabaseavailableconnections_2">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="860" name="component_pos_x"/>
+        <Option type="double" value="211" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Import HRE" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="557" name="component_pos_x"/>
+      <Option type="double" value="316" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_2" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ADDFIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="APPEND">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="A_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="CLIP">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="database_lcz" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DIM">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOCOLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="geom" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GTYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INDEX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="HRE" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAUNDER">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERWRITE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PK">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRIMARY_KEY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PROMOTETOMULTI">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SCHEMA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="public" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTIZE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SHAPE_ENCODING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="CP1252" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SIMPLIFY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SKIPFAILURES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SPAT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="S_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TABLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="hre" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="T_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="WHERE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="gdal:importvectorintopostgisdatabaseavailableconnections_3">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1080" name="component_pos_x"/>
+        <Option type="double" value="311" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Import OCS" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="583" name="component_pos_x"/>
+      <Option type="double" value="506" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_3" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="ADDFIELDS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="APPEND">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="A_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="CLIP">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="database_lcz" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DIM">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="0" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOCOLUMN">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="geom" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GTYPE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="int" value="8" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INDEX">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="OCS" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAUNDER">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERWRITE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PK">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRECISION">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PRIMARY_KEY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PROMOTETOMULTI">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="true" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SCHEMA">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="public" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTIZE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SHAPE_ENCODING">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="CP1252" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SIMPLIFY">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SKIPFAILURES">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="bool" value="false" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SPAT">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="invalid" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="S_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="TABLE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="ocs" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="T_SRS">
+          <Option type="Map">
+            <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="parameter_name"/>
+            <Option type="int" value="0" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="WHERE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:postgisexecutesql_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:postgisexecutesql" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1379" name="component_pos_x"/>
+        <Option type="double" value="561" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Classification LCZ" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="889" name="component_pos_x"/>
+      <Option type="double" value="402" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_2" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+        <Option type="Map">
+          <Option type="QString" value="gdal:importvectorintopostgisdatabaseavailableconnections_3" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="native:postgisexecutesql_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="database_lcz" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SQL">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="DROP TABLE IF EXISTS lcz;&#xa;CREATE TABLE lcz AS&#xa;    SELECT m.id AS id, h.mean_h AS hre, h.mean_a AS are, o.built AS bur, o.mineral AS ror, o.baresoil AS bsr, o.water AS war, o.veget AS ver, o.veg_h_rate AS vhr, m.geom AS geom&#xa;    FROM maillage AS m, hre AS h, ocs AS o&#xa;    WHERE m.id = h.id AND m.id = o.id;&#xa;&#xa;ALTER TABLE lcz ADD COLUMN lcz VARCHAR(8);&#xa;ALTER TABLE lcz ADD COLUMN lcz_int SMALLINT;&#xa;UPDATE lcz SET lcz = 'urban' WHERE bur > 5;&#xa;UPDATE lcz SET lcz = 'natural' WHERE bur &lt;= 5;&#xa;UPDATE lcz SET lcz = 'low_ocs' WHERE lcz = 'natural' AND (bur + ror + bsr + war + ver) &lt;= 60;&#xa;&#xa;UPDATE lcz SET lcz = '9', lcz_int = 9 WHERE lcz = 'urban' AND (hre &lt;= 9)              AND (bur &lt;= 20);&#xa;UPDATE lcz SET lcz = '8', lcz_int = 8 WHERE lcz = 'urban' AND (are > 1000);&#xa;UPDATE lcz SET lcz = '7', lcz_int = 7 WHERE lcz = 'urban' AND (hre &lt;= 9)              AND (bur > 60) AND (bsr > ror+war+ver);&#xa;UPDATE lcz SET lcz = '6', lcz_int = 6 WHERE lcz = 'urban' AND (hre &lt;= 9)              AND (bur &lt;= 40);&#xa;UPDATE lcz SET lcz = '5', lcz_int = 5 WHERE lcz = 'urban' AND (hre > 9 AND hre &lt;= 30) AND (bur &lt;= 40);&#xa;UPDATE lcz SET lcz = '4', lcz_int = 4 WHERE lcz = 'urban' AND (hre > 30)              AND (bur &lt;= 40);&#xa;UPDATE lcz SET lcz = '3', lcz_int = 3 WHERE lcz = 'urban' AND (hre &lt;= 9)              AND (bur > 40);&#xa;UPDATE lcz SET lcz = '2', lcz_int = 2 WHERE lcz = 'urban' AND (hre > 9 AND hre &lt;= 30) AND (bur > 40);&#xa;UPDATE lcz SET lcz = '1', lcz_int = 1 WHERE lcz = 'urban' AND (hre > 30)              AND (bur > 40);&#xa;&#xa;UPDATE lcz SET lcz = 'A', lcz_int = 11 WHERE lcz = 'natural' AND ((ver >= ror) AND (ver >= bsr) AND (ver >= war)) AND (vhr > 50);&#xa;UPDATE lcz SET lcz = 'B', lcz_int = 12 WHERE lcz = 'natural' AND ((ver >= ror) AND (ver >= bsr) AND (ver >= war)) AND (vhr > 25 AND vhr &lt;= 50);&#xa;UPDATE lcz SET lcz = 'C', lcz_int = 13 WHERE lcz = 'natural' AND ((ver >= ror) AND (ver >= bsr) AND (ver >= war)) AND (vhr > 10 AND vhr &lt;= 25);&#xa;UPDATE lcz SET lcz = 'D', lcz_int = 14 WHERE lcz = 'natural' AND ((ver >= ror) AND (ver >= bsr) AND (ver >= war)) AND (vhr &lt;= 10);&#xa;UPDATE lcz SET lcz = 'E', lcz_int = 15 WHERE lcz = 'natural' AND ((ror >= bsr) AND (ror >= war) AND (ror >= ver));&#xa;UPDATE lcz SET lcz = 'F', lcz_int = 16 WHERE lcz = 'natural' AND ((bsr >= ror) AND (bsr >= war) AND (bsr >= ver));&#xa;UPDATE lcz SET lcz = 'G', lcz_int = 17 WHERE lcz = 'natural' AND ((war >= ror) AND (war >= bsr) AND (war >= ver));&#xa;&#xa;ALTER TABLE lcz ALTER COLUMN id TYPE INTEGER;&#xa;ALTER TABLE lcz ALTER COLUMN hre TYPE NUMERIC(8,2);&#xa;ALTER TABLE lcz ALTER COLUMN are TYPE NUMERIC(8,2);&#xa;ALTER TABLE lcz ALTER COLUMN bur TYPE NUMERIC(6,2);&#xa;ALTER TABLE lcz ALTER COLUMN ror TYPE NUMERIC(6,2);&#xa;ALTER TABLE lcz ALTER COLUMN bsr TYPE NUMERIC(6,2);&#xa;ALTER TABLE lcz ALTER COLUMN war TYPE NUMERIC(6,2);&#xa;ALTER TABLE lcz ALTER COLUMN ver TYPE NUMERIC(6,2);&#xa;ALTER TABLE lcz ALTER COLUMN vhr TYPE NUMERIC(6,2);&#xa;" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:renamelayer_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:renamelayer" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="255,0,0,255" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="30" name="component_height"/>
+        <Option type="double" value="1445" name="component_pos_x"/>
+        <Option type="double" value="625" name="component_pos_y"/>
+        <Option type="double" value="92" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Renommer la couche" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1166" name="component_pos_x"/>
+      <Option type="double" value="617" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="qgis:postgisexecuteandloadsql_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="native:renamelayer_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="qgis:postgisexecuteandloadsql_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="Classification LCZ" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:savefeatures_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="native:savefeatures" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1676" name="component_pos_x"/>
+        <Option type="double" value="667" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Sauvegarde fichier" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1258" name="component_pos_x"/>
+      <Option type="double" value="740" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="native:renamelayer_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="native:savefeatures_1" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Classification LCZ">
+          <Option type="QString" value="native:savefeatures_1" name="child_id"/>
+          <Option type="QString" value="" name="color"/>
+          <Option type="Map" name="comment">
+            <Option type="QString" value="" name="color"/>
+            <Option type="QString" value="" name="component_description"/>
+            <Option type="double" value="60" name="component_height"/>
+            <Option type="double" value="0" name="component_pos_x"/>
+            <Option type="double" value="0" name="component_pos_y"/>
+            <Option type="double" value="100" name="component_width"/>
+            <Option type="bool" value="true" name="outputs_collapsed"/>
+            <Option type="bool" value="true" name="parameters_collapsed"/>
+          </Option>
+          <Option type="QString" value="Classification LCZ" name="component_description"/>
+          <Option type="double" value="30" name="component_height"/>
+          <Option type="double" value="1369" name="component_pos_x"/>
+          <Option type="double" value="828" name="component_pos_y"/>
+          <Option type="double" value="200" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option type="bool" value="false" name="mandatory"/>
+          <Option type="QString" value="Classification LCZ" name="name"/>
+          <Option type="QString" value="OUTPUT" name="output_name"/>
+          <Option type="bool" value="true" name="outputs_collapsed"/>
+          <Option type="bool" value="true" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATASOURCE_OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" value="native:renamelayer_1" name="child_id"/>
+            <Option type="QString" value="OUTPUT" name="output_name"/>
+            <Option type="int" value="1" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAYER_NAME">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="LAYER_OPTIONS">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:postgisexecuteandloadsql_1">
+      <Option type="bool" value="true" name="active"/>
+      <Option name="alg_config"/>
+      <Option type="QString" value="qgis:postgisexecuteandloadsql" name="alg_id"/>
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="1353" name="component_pos_x"/>
+        <Option type="double" value="561" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Chargement dans QGIS" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="1065" name="component_pos_x"/>
+      <Option type="double" value="509" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="List" name="dependencies">
+        <Option type="Map">
+          <Option type="QString" value="native:postgisexecutesql_1" name="child_id"/>
+          <Option type="QString" value="" name="conditional_branch"/>
+        </Option>
+      </Option>
+      <Option type="QString" value="qgis:postgisexecuteandloadsql_1" name="id"/>
+      <Option name="outputs"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DATABASE">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="database_lcz" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="GEOMETRY_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="geom" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="ID_FIELD">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="id" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SQL">
+          <Option type="Map">
+            <Option type="int" value="2" name="source"/>
+            <Option type="QString" value="SELECT id, hre, are, bur, ror, bsr, war, ver, vhr, lcz, lcz_int, geom FROM lcz;" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option type="Map" name="designerParameterValues">
+    <Option type="bool" value="true" name="VERBOSE_LOG"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option type="QString" value="LCZ" name="model_group"/>
+  <Option type="QString" value="2_ComputeLCZ" name="model_name"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="Fichiermaillage">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Fichier maillage" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="Fichiermaillage" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="HRE">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Indicateur HRE" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="HRE" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="OCS">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Indicateur OCS" name="description"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="OCS" name="name"/>
+      <Option type="QString" value="vector" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="SystmedeCoordonnesdeRfrence">
+      <Option type="QString" value="EPSG:2154" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Système de Coordonnées de Référence" name="description"/>
+      <Option type="int" value="10" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="name"/>
+      <Option type="QString" value="crs" name="parameter_type"/>
+    </Option>
+    <Option type="Map" name="native:savefeatures_1:Classification LCZ">
+      <Option type="bool" value="true" name="create_by_default"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" value="Classification LCZ" name="description"/>
+      <Option type="QString" value="GeoPackage (*.gpkg *.GPKG);;ESRI Shapefile (*.shp *.SHP);;AutoCAD DXF (*.dxf *.DXF);;FlatGeobuf (*.fgb *.FGB);;Geoconcept (*.gxt *.txt *.GXT *.TXT);;Geography Markup Language [GML] (*.gml *.GML);;GeoJSON - Newline Delimited (*.geojsonl *.geojsons *.json *.GEOJSONL *.GEOJSONS *.JSON);;GeoJSON (*.geojson *.GEOJSON);;GeoRSS (*.xml *.XML);;GPS eXchange Format [GPX] (*.gpx *.GPX);;INTERLIS 1 (*.itf *.xml *.ili *.ITF *.XML *.ILI);;INTERLIS 2 (*.xtf *.xml *.ili *.XTF *.XML *.ILI);;Keyhole Markup Language [KML] (*.kml *.KML);;Mapinfo TAB (*.tab *.TAB);;Microstation DGN (*.dgn *.DGN);;PostgreSQL SQL dump (*.sql *.SQL);;S-57 Base file (*.000 *.000);;SQLite (*.sqlite *.SQLITE);;Tableur MS Office Open XML [XLSX] (*.xlsx *.XLSX);;Tableur Open Document  [ODS] (*.ods *.ODS);;Valeurs séparées par une virgule [CSV] (*.csv *.CSV)" name="file_filter"/>
+      <Option type="int" value="0" name="flags"/>
+      <Option type="QString" value="" name="help"/>
+      <Option name="metadata"/>
+      <Option type="QString" value="native:savefeatures_1:Classification LCZ" name="name"/>
+      <Option type="QString" value="fileDestination" name="parameter_type"/>
+      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+    </Option>
+  </Option>
+  <Option type="StringList" name="parameterOrder">
+    <Option type="QString" value="Fichiermaillage"/>
+    <Option type="QString" value="HRE"/>
+    <Option type="QString" value="OCS"/>
+    <Option type="QString" value="SystmedeCoordonnesdeRfrence"/>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="Fichiermaillage">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="332" name="component_pos_x"/>
+        <Option type="double" value="91" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="Fichiermaillage" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="137" name="component_pos_x"/>
+      <Option type="double" value="81" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="Fichiermaillage" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="HRE">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="417" name="component_pos_x"/>
+        <Option type="double" value="249" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="HRE" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="135" name="component_pos_x"/>
+      <Option type="double" value="244" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="HRE" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="OCS">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="426" name="component_pos_x"/>
+        <Option type="double" value="392" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="OCS" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="165" name="component_pos_x"/>
+      <Option type="double" value="441" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="OCS" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="SystmedeCoordonnesdeRfrence">
+      <Option type="QString" value="" name="color"/>
+      <Option type="Map" name="comment">
+        <Option type="QString" value="" name="color"/>
+        <Option type="QString" value="" name="component_description"/>
+        <Option type="double" value="60" name="component_height"/>
+        <Option type="double" value="585" name="component_pos_x"/>
+        <Option type="double" value="15" name="component_pos_y"/>
+        <Option type="double" value="100" name="component_width"/>
+        <Option type="bool" value="true" name="outputs_collapsed"/>
+        <Option type="bool" value="true" name="parameters_collapsed"/>
+      </Option>
+      <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="component_description"/>
+      <Option type="double" value="30" name="component_height"/>
+      <Option type="double" value="213" name="component_pos_x"/>
+      <Option type="double" value="648" name="component_pos_y"/>
+      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" value="SystmedeCoordonnesdeRfrence" name="name"/>
+      <Option type="bool" value="true" name="outputs_collapsed"/>
+      <Option type="bool" value="true" name="parameters_collapsed"/>
+    </Option>
+  </Option>
+</Option>
